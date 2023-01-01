@@ -1,5 +1,12 @@
 
 An Rclone Mirror-Leech Telegram Bot to transfer to and from many clouds. Based on [mirror-leech-telegram-bot](https://github.com/anasty17/mirror-leech-telegram-bot) with rclone support added, and other features and changes from base code.
+## BUILDING DOCKER IMAGE
+
+**Add Service account,Token.picke,config in GitHub repo.
+Required Variables(Add in Settings -> Secrets -> Actions -> Actions secrets -> New repository secret):**
+
+- `DOCKER_HUB_PW` :<p><b><a href="https://hub.docker.com/settings/security">➥🎲Get from</a></b></p> 
+- `DOCKER_HUB_USERNAME` : Enter https://hub.docker.com Username.
 
 ## Features:
 
