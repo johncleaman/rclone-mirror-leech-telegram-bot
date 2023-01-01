@@ -1,10 +1,6 @@
 name: Build Docker
 
-on:
-  push:
-   branches: [ master ]
-  pull_request:
-    branches: [ master ]
+on: workflows_dispatch
       
 jobs:
   build:
